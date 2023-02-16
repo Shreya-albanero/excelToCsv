@@ -17,13 +17,11 @@ dependencies {
 	implementation 'com.synsys.org.apache.spark:spark:1.0.0'
 	implementation ('org.apache.spark:spark-sql_2.12:3.2.2') {
 		exclude group :'org.slf4j', module: 'slf4j-log4j12'
-//		exclude group: 'log4j', module: 'log4j'
 	}
 
 	implementation 'org.codehaus.janino:commons-compiler:3.0.8'
 	implementation 'org.codehaus.janino:janino:3.0.8'
 	implementation 'com.crealytics:spark-excel_2.12:3.3.1_0.18.5'
-//	implementation 'com.crealytics:spark-excel_2.12::0.13.7'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
